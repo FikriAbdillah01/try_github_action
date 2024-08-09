@@ -10,8 +10,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Run Linter
-      uses: github/linter@v3
+    - name: Run first
+      uses: github/first@v3
       env:
         DEFAULT_BRANCH: main
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
