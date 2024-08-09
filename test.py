@@ -4,4 +4,4 @@ def say():
 def bye():
     print("See you again")
 
-say()
+print(say())
