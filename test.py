@@ -1,7 +1,7 @@
 def say():
-    print('hello world')
+    print("Hello World")
 
 def bye():
-    print('see you again')
+    print("See you again")
 
-print(say())
+say()
